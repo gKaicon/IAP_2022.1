@@ -26,12 +26,7 @@ int main()
 double MaiorMenor(double x, double y)
 {
     if (y > x)
-    {
         return y;
-    }
     if (x > y)
-    {
-        return y;
-    }
-    return 0;
+        return x;
 }
