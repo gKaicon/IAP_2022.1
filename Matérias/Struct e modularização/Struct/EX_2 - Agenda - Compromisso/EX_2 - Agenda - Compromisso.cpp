@@ -26,9 +26,9 @@ int main(){
     SetConsoleOutputCP(CPAGE_UTF8);
     system("cls");
 
-    struct Compromisso compromisso1;
+    Compromisso compromisso1;
 
-    cout << "Descrição: ";
+    cout << "Descrição: ";    
     cin.getline(compromisso1.descricao, 100);
     cout << "Data: ";
     cin >> compromisso1.dt.dia >> compromisso1.dt.mes >> compromisso1.dt.ano;
